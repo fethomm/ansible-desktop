@@ -4,5 +4,6 @@
   become: true
 
   tasks:
-  package:
-    name:ghostwriter
+  - name: ghostwriter  
+    package:
+      name:ghostwriter
