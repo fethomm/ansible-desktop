@@ -4,6 +4,5 @@
   become: true
 
   tasks:
-  - name: install ghostwriter
-    package:
-      name:ghostwriter
+  package:
+    name:ghostwriter
