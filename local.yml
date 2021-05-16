@@ -6,4 +6,3 @@
   tasks:
   - name: ghostwriter  
     package:
-      name:ghostwriter
