@@ -4,6 +4,10 @@
   become: true
 
   tasks:
-  - name: install ghostwriter  
+  - name: install packages  
     package:
-      name: ghostwriter
+      name:
+        - htop
+        - vim-nox
+        - tmux
+
