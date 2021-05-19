@@ -4,14 +4,13 @@
   become: true
 
   tasks:
-  - name: install packages  
+  - name: "install packages"  
     package:
       name:
         - htop
         - vim-nox
         - tmux
 
-  - name: Upgrade per apt-modul
+  - name: "Upgrade per apt-modul"
     apt:
-      upgrade: dist
-        update_cache: yes
+      upgrade: "dist update_cache:yes"
