@@ -11,8 +11,7 @@
         - vim-nox
         - tmux
 
----
-  name:Upgrade per apt-modul
+  - name:Upgrade per apt-modul
     apt:
       upgrade: dist
         update_cache: yes
